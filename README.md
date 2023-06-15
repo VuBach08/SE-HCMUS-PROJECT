@@ -15,7 +15,13 @@ customers faster and easier
 ## Target users and Environemnt
 ### Targer users
 There will be 2 main users that E-tech is aiming to:
-• Sellers: These are enterprises such as Sony, Logitech, Asus, .etc, and individuals who want to sell their
+
+- Sellers: These are enterprises such as Sony, Logitech, Asus, .etc, and individuals who want to sell their
 electronic devices .
-• Buyers: People who are interested in buying electronic goods, aging from around 18 to 40, especially
+
+- Buyers: People who are interested in buying electronic goods, aging from around 18 to 40, especially
 those whose job involves computer; and gamers.
+
+### Target environment
+Our project will be operated as a website via the Internet, using HTML, CSS and Bootstrap for interface, and
+Typescript, Nodejs, Python for backend development.
