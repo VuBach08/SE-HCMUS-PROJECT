@@ -1,7 +1,7 @@
 # SE-HCMUS-PROJECT
 An Introduction to Engineering electronic online market project
 
-##Introduction
+## Introduction
 With the rising of technology and service industry, people no longer have to directly go to a store to buy what
 they need. Instead, There are software and websites that allow them to access any products from any store
 just by staying indoor. Therefore, our group decided to build a similar platform that is for electronics trades
