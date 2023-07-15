@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="../assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.112.5">
+    <title>E-tech header</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/headers/">
+
+    <link href= "https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="headers.css" rel="stylesheet">
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <!-- E-tech logo -->
+      <symbol id="e-tech">
+        <path d="M1.89631 33V11.1818H16.598V14.9851H6.50923V20.1839H15.8416V23.9872H6.50923V29.1967H16.6406V33H1.89631ZM29.6855 20.2905V23.8913H19.7352V20.2905H29.6855ZM31.2088 14.9851V11.1818H49.1278V14.9851H42.4481V33H37.8885V14.9851H31.2088ZM51.3888 33V11.1818H66.0905V14.9851H56.0017V20.1839H65.3341V23.9872H56.0017V29.1967H66.1331V33H51.3888ZM88.3187 18.8203H83.6525C83.5672 18.2166 83.3932 17.6804 83.1304 17.2116C82.8677 16.7358 82.5303 16.331 82.1184 15.9972C81.7064 15.6634 81.2306 15.4077 80.6908 15.2301C80.1581 15.0526 79.5793 14.9638 78.9543 14.9638C77.825 14.9638 76.8414 15.2443 76.0033 15.8054C75.1652 16.3594 74.5154 17.169 74.0537 18.2344C73.5921 19.2926 73.3613 20.5781 73.3613 22.0909C73.3613 23.6463 73.5921 24.9531 74.0537 26.0114C74.5225 27.0696 75.1759 27.8686 76.014 28.4084C76.852 28.9482 77.8215 29.218 78.9223 29.218C79.5402 29.218 80.112 29.1364 80.6375 28.973C81.1702 28.8097 81.6425 28.5717 82.0545 28.2592C82.4664 27.9396 82.8073 27.5526 83.0772 27.098C83.3542 26.6435 83.5459 26.125 83.6525 25.5426L88.3187 25.5639C88.1979 26.5653 87.8961 27.5312 87.4131 28.4616C86.9373 29.3849 86.2945 30.2124 85.4848 30.9439C84.6823 31.6683 83.7235 32.2436 82.6084 32.6697C81.5005 33.0888 80.2469 33.2983 78.8478 33.2983C76.9018 33.2983 75.1617 32.858 73.6276 31.9773C72.1006 31.0966 70.8932 29.8217 70.0054 28.1527C69.1248 26.4837 68.6844 24.4631 68.6844 22.0909C68.6844 19.7116 69.1319 17.6875 70.0268 16.0185C70.9216 14.3494 72.1361 13.0781 73.6702 12.2045C75.2043 11.3239 76.9302 10.8835 78.8478 10.8835C80.112 10.8835 81.2839 11.0611 82.3634 11.4162C83.45 11.7713 84.4124 12.2898 85.2505 12.9716C86.0885 13.6463 86.7704 14.4737 87.2959 15.4538C87.8286 16.4339 88.1695 17.5561 88.3187 18.8203ZM90.9365 33V11.1818H95.5495V20.1839H104.914V11.1818H109.516V33H104.914V23.9872H95.5495V33H90.9365Z" fill="#9747FF"/>               
+      </symbol>
+    </svg>
+
+    <!-- Main -->
+    <main>
+    <!-- Header and navigation bar -->
+    <nav class="border-bottom">
+      <div class="container d-flex flex-wrap">
+        <ul class="nav me-auto">
+          <li class="nav-item"><a href="/" class="nav-link link-body-emphasis px-2 active" aria-current="page">Home</a></li>
+          <li class="nav-item"><a href="/features" class="nav-link link-body-emphasis px-2 active" aria-current="page">Features</a></li>
+          <li class="nav-item"><a href="/pricing" class="nav-link link-body-emphasis px-2 active" aria-current="page">Pricing</a></li>
+          <li class="nav-item"><a href="/faq" class="nav-link link-body-emphasis px-2 active" aria-current="page">FAQs</a></li>
+          <li class="nav-item"><a href="/about" class="nav-link link-body-emphasis px-2 active" aria-current="page">About</a></li>
+          <li class="nav-item"><a href="/selling" class="nav-link link-body-emphasis px-2">Start selling</a></li>
+        </ul>
+        <ul class="nav">
+          <li class="nav-item"><a href="/login" class="nav-link link-body-emphasis px-2">Login</a></li>
+          <li class="nav-item"><a href="/register" class="nav-link link-body-emphasis px-2">Sign up</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a href="/home" class="d-flex align-items-center mb-2 mb-lg-0 me-lg-4 link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="110" height="40"><use xlink:href="#e-tech"/></svg>
+        </a>
+        <form class="col-12 col-lg-8 mb-3 mb-lg-0 me-lg-auto" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+        <!-- Cart button -->
+        <a href="/cart" class="align-items-center mb-0 me-3 mb-lg-0 text-white text-decoration-none">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" fill="#000"/>
+          </svg>
+        </a>
+      </div>
+    </header>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
